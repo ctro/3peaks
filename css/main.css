@@ -6,6 +6,29 @@ html {
     line-height: 1.4;
 }
 
+/* ThreePeaks custom CSS */
+img.massage-image {
+  width: 300px;
+  margin: 3px;
+  border-right: 2px solid #999;
+  border-bottom: 2px solid #999;
+}
+
+
+table.rates td {
+  border: dashed 2px #888;
+  padding: 1.5em;
+}
+
+a.page-link,
+a.page-link:hover,
+a.page-link:visited,
+a.page-link:link {
+  color: purple;
+}
+
+/* /3peaks styles */
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -70,18 +93,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #888;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #888;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #444;
 }
 
 .title {
@@ -108,15 +131,16 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #888;
 }
 
-nav a:hover,
-nav a:visited {
+a:hover,
+a:visited,
+a:link {
     color: white;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -140,6 +164,7 @@ nav a:hover {
 .footer-container footer {
     color: white;
     padding: 20px 0;
+    text-align: center;
 }
 
 /* ===============
@@ -180,8 +205,8 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
-        margin: 0 1.7%;
+        width: 19%;
+        margin: 0 1%;
         padding: 25px 2%;
         margin-bottom: 0;
     }
