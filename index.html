@@ -15,6 +15,13 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            // run every 5s
+            setInterval('cycleImages()', 5000);
+          })
+        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -26,7 +33,6 @@
                 <a href="/"><img src="img/logo.png" /></a>
                 <nav>
                     <ul>
-                        <li><a href="/mission.html">Mission</a></li>
                         <li><a href="/about.html">About</a></li>
                         <li><a href="/rates.html">Rates</a></li>
                         <li><a href="/reviews.html">Reviews</a></li>
@@ -38,25 +44,21 @@
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <article>
+                <article id="cycler-article">
                     <header>
                         <h1>Welcome to Three Peaks Massage</h1>
                     </header>
-                    <section>
-                      <img src="img/3peakscard.jpg" width="100%"/>
-                    </section>
-                    <section>
+
+                    <section id="cycler-section">
+                      <div id="cycler">
+                      <img class="active" src="img/3peakscard.jpg" width="100%"/>
                       <img src="img/card2.jpg" width="100%"/>
-                    </section>
-                    <section>
                       <img src="img/card3.jpg" width="100%"/>
-                    </section>
-                    <section>
                       <img src="img/card4.jpg" width="100%"/>
-                    </section>
-                    <section>
                       <img src="img/card5.jpg" width="100%"/>
+                      </div>
                     </section>
+
                 </article>
 
                 <!-- example
@@ -69,8 +71,6 @@
                     <section></section>
                 </article>
               -->
-
-
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->

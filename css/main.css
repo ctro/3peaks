@@ -27,6 +27,15 @@ a.page-link:link {
   color: purple;
 }
 
+.header-container img {
+  margin: 20px;
+}
+
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
+#cycler-section {height: 450px;}
+#cycler-article {width: 80%;}
 /* /3peaks styles */
 
 ::-moz-selection {
@@ -207,7 +216,7 @@ a:hover {
         float: left;
         width: 19%;
         margin: 0 1%;
-        padding: 25px 2%;
+        padding: 10px 2%;
         margin-bottom: 0;
     }
 
