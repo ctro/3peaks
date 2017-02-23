@@ -4,18 +4,9 @@ This is static HTML, yay.
 
 ## Development
 
-```
-python -m SimpleHTTPServer 8080
-open localhost:8080
-```
+Just open `index.html` in Chrome
 
 ## Production
 
-Site is hosted in an s3 bucket.
-Deploy: `aws s3 sync . s3://3peaksmassage`
+Currently running on a pi at home, fronted by CloudFlare
 
-
-## TODO
-
-- [ ] Simple SPA Styles
-- [ ] Text / logo replacement
