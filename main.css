@@ -23,34 +23,6 @@ a {
   height: 0;
 }
 
-#about img {
-  float: left;
-  height: auto;
-  width: 70%;
-  margin: 20px;
-}
-
-#rates img {
-  float: right;
-  height: auto;
-  width: 30%;
-  margin: 20px;
-}
-
-div#rates {
-  min-height: 300px;
-}
-
-#rates table td {
-  border: dotted 1px white;
-  margin: 20px;
-  padding: 10px;
-}
-
-#reviews li {
-  margin: 15px 0 20px 0;
-}
-
 #footer {
   text-align: center;
   margin-top: 11%;
