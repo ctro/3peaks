@@ -8,5 +8,5 @@ Just open `index.html` in Chrome
 
 ## Production
 
-Currently running on a pi at home, fronted by CloudFlare
+Currently running on a solar powered pi at home, fronted by CloudFlare
 
